@@ -1,2 +1,2 @@
 # Hotdog-Not-Hotdog
-Hotdog Not Hotdog from the tv show Silicon Valley
+Hotdog Not Hotdog from the HBO show Silicon Valley
