@@ -1,0 +1,178 @@
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body
+{
+    background: #010101;
+}
+
+h1 {
+    color: #010101;
+    -webkit-text-fill-color: #f1f1f1; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #010101;
+    font-size: 3.5rem;
+}
+
+h2 {
+    color: #a40819;
+    font-size: 2rem;
+}
+
+h3 {
+    color: #010101;
+    -webkit-text-fill-color: #f1f1f1; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #010101;
+    font-size: 2.25rem;
+}
+
+.btn-primary
+{
+color: #f1f1f1;
+background-color: #a40819;
+border-color: #a40819;
+}
+
+.btn-primary:hover {
+    color: #a40819;
+    background-color: #f1f1f1;
+    border-color: #f1f1f1;
+}
+
+.btn-secondary:hover
+ {
+    color: #a40819;
+    background-color: #f1f1f1;
+    border-color: #f1f1f1;
+}
+
+.btn-secondary
+{
+    color: #a40819;
+    background-color: #f1f1f1;
+    border-color: #f1f1f1;
+}
+
+.btn-secondary:active
+{
+    color: #f1f1f1;
+    background-color: #a40819;
+    border-color: #a40819;
+}
+
+btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #f1f1f1;
+    background-color: #a40819;
+    border-color: #a40819;
+}
+
+#seefood
+{
+ display: none;
+}
+
+
+.head-text
+{
+    background: #a40819;
+}
+
+
+.sub-text
+{
+    background: #f1f1f1;
+}
+
+
+.start-container
+{
+    position: absolute;
+    z-index: 1;
+    top: 250px;
+}
+
+.upload-container
+{
+    position: fixed;
+    z-index: 1;
+    bottom: 24px;
+}
+
+/* food background images */
+
+
+.food1
+{
+
+    background:
+        /* top, transparent red, faked with gradient */
+            linear-gradient(
+                    rgba(10, 10, 10, 0.8),
+                    rgba(10, 10, 10, 0.5)
+            ),
+                /* bottom, image */
+            url("../backgounds/food1.jpeg") no-repeat;
+
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.food2
+{
+    background:
+        /* top, transparent red, faked with gradient */
+            linear-gradient(
+                    rgba(10, 10, 10, 0.8),
+                    rgba(10, 10, 10, 0.5)
+            ),
+                /* bottom, image */
+            url("../backgounds/food2.jpg") no-repeat;
+
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.food3
+{
+    background:
+        /* top, transparent red, faked with gradient */
+            linear-gradient(
+                    rgba(10, 10, 10, 0.8),
+                    rgba(10, 10, 10, 0.5)
+            ),
+                /* bottom, image */
+            url("../backgounds/food3.jpeg") no-repeat;
+
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.food4
+{
+    background:
+        /* top, transparent red, faked with gradient */
+            linear-gradient(
+                    rgba(10, 10, 10, 0.8),
+                    rgba(10, 10, 10, 0.5)
+            ),
+                /* bottom, image */
+            url("../backgounds/food4.jpg") no-repeat;
+
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

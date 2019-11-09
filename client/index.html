@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <title>SEEFOOD</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <!-- p5 -->
+    <script src="js/p5.min.js"></script>
+    <script src="js/p5.dom.min.js"></script>
+    <script src="js/p5.sound.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+    <!-- ml5 -->
+    <script src="js/ml5.min.js"></script>
+
+    <!-- sweet alert -->
+    <script src="js/sweetalert2@8.js"></script>
+</head>
+
+<body>
+
+<div class="" onclick="showSeeFood()">
+    <div class="row m-0 p-0">
+        <!-- sub text -->
+        <div class="col-12 text-center head-text see-food">
+            <h1>SEEFOOD</h1>
+        </div>
+
+        <!-- sub text -->
+        <div class="col-12 text-center sub-text">
+            <h2>"The Shazam for Food"</h2>
+        </div>
+    </div>
+    <div class="row m-0 p-0">
+
+        <!-- food images -->
+        <div class="col-12 text-center food1">
+        </div>
+
+        <div class="col-12 text-center food4">
+        </div>
+
+        <div class="col-12 text-center food3">
+        </div>
+
+        <div class="col-12 text-center food2">
+        </div>
+
+    </div>
+</div>
+
+<!-- get started  -->
+<div id="getStarted" onclick="showSeeFood()" class="container start-container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h3>Lets Get Started</h3>
+        </div>
+    </div>
+</div>
+
+<div id="seefood" class="container upload-container">
+    <div class="row">
+        <div class="col-12">
+
+            <img id="image" class="image py-4 w-100" alt=""/>
+            <input type="file" id="file" name="theInput" placeholder="SeeFood" class="btn btn-secondary py-2 w-100 m-0">
+
+            <button type="button" class="btn btn-primary w-100 m-0"
+                    onclick="seefood()">
+                SEEFOOD</button>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+
+<footer>
+    <script src="hotdog-not-hotdog.js"></script>
+</footer>
+
+
+</html>

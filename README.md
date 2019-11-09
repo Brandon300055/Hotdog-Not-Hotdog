@@ -1,3 +1,3 @@
 # Hotdog-Not-Hotdog
 Hotdog Not Hotdog from the HBO show Silicon Valley
-Submition for CodeCamp
+Submission for CodeCamp by Spacelander.io team.
