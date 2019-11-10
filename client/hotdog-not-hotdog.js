@@ -132,13 +132,16 @@ function checkLable(results) {
 
     } //end for loop
 
+    console.log("pizza");
+     console.log(pizza);
+
     // set label based on the confidence score
     if (hotdog > pizza && hotdog > notHotdog ) {
 
         this.type = "Hot Dog";
         this.confidence = hotdog;
 
-    } else if (pizza > notHotdog) {
+    } else if (pizza > .15) {
 
         this.type = "Pizza";
         this.confidence = pizza;

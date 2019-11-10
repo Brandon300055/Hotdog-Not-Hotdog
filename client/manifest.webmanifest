@@ -1,0 +1,21 @@
+{
+  "short_name": "SEEFOOD",
+  "name": "SEEFOOD ",
+  "icons": [
+    {
+      "src": "../backgrounds/192.png",
+      "type": "image/png",
+      "sizes": "196x196"
+    },
+    {
+      "src": "../backgrounds/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#010101",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#a40819"
+}

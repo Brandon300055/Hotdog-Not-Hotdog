@@ -114,7 +114,7 @@ btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):no
                     rgba(10, 10, 10, 0.5)
             ),
                 /* bottom, image */
-            url("../backgounds/food1.jpeg") no-repeat;
+            url("../backgrounds/food1.jpeg") no-repeat;
 
     height: 300px;
     -webkit-background-size: cover;
@@ -132,7 +132,7 @@ btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):no
                     rgba(10, 10, 10, 0.5)
             ),
                 /* bottom, image */
-            url("../backgounds/food2.jpg") no-repeat;
+            url("../backgrounds/food2.jpg") no-repeat;
 
     height: 300px;
     -webkit-background-size: cover;
@@ -150,7 +150,7 @@ btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):no
                     rgba(10, 10, 10, 0.5)
             ),
                 /* bottom, image */
-            url("../backgounds/food3.jpeg") no-repeat;
+            url("../backgrounds/food3.jpeg") no-repeat;
 
     height: 300px;
     -webkit-background-size: cover;
@@ -168,7 +168,7 @@ btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):no
                     rgba(10, 10, 10, 0.5)
             ),
                 /* bottom, image */
-            url("../backgounds/food4.jpg") no-repeat;
+            url("../backgrounds/food4.jpg") no-repeat;
 
     height: 300px;
     -webkit-background-size: cover;
