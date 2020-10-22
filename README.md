@@ -1,5 +1,5 @@
 # Hotdog-Not-Hotdog
-Hotdog Not Hotdog from the HBO show Silicon Valley Submission
+Hotdog Not Hotdog from the HBO's Silicon Valley.
 Will do pizza!
 see at http://seefood.ml/ (recommed you used firefox in moble)
 
